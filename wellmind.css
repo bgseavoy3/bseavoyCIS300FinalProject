@@ -41,6 +41,18 @@ b
     font-size: 12px;
 }
 
+table 
+{
+  width: 100%;           
+  border-collapse: collapse; 
+}
+
+th, td 
+{
+  width: 25%;            
+  text-align: center;
+}
+
 .logo 
 {
   font-weight: bold;

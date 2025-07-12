@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WellMind :: Review</title>
+  <link rel="stylesheet" href="wellmind.css">
+  <meta name="description" content="This page lets the user leave reviews about their experience using products from WellMind">
+</head>
+<body>
+  <header>
+    <div class="logo"><a href="index.html">WellMind Reviews</a></div>
+    <nav>
+      <a href="basic.html">Basic Version</a>
+      <a href="pro.html">Pro Version</a>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <h1>Leave A Review Below</h1>
+  </section>
+    <h2>Feedback Form</h2>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="product">Product Used:</label><br>
+        <select id="product" name="product" required>
+        <option value="">--Please choose an option--</option>
+        <option value="Basic">Basic</option>
+        <option value="Pro">Pro</option>
+        </select><br><br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="5" cols="40" placeholder="Your feedback..."></textarea><br><br>
+
+        <button action="#">Submit</button>
+    </form>
+  <footer class="footer">
+  <div class="footer-column">
+    <a>Contact Information</a>
+    <a href="mailto:bgseavoy3@gmail.com"><b>email us</b></a>
+    <a><b>773-600-4099</b></a>
+  </div>
+  <div class="footer-column">
+    <a>Review Our Product</a>
+    <a href="review.html"><b>Basic Version</b></a>
+    <a href="review.html"><b>Pro Version</b></a>
+  </div>
+  <div class="footer-column">
+    <a >Research</a>
+    <a href="https://www.apa.org/"><b>APA</b></a>
+  </div>
+</footer>
+</body>
+</html>
